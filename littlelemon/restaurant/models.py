@@ -24,4 +24,3 @@ class Booking(models.Model):
 
     def __str__(self) -> str:
         return f'{self.name} for {self.number_of_guests} guests on {self.booking_date}'
-    
